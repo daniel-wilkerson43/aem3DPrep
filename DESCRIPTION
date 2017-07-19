@@ -1,0 +1,15 @@
+Package: modelflow
+Type: Package
+Title: Model Data Flow
+Version: 0.1.0
+Author: Daniel Wilkerson
+Maintainer: Daniel Wilkerson <dnlwilkerson@gmail.com>
+Description: Handle data from raw data to output for the AEM3D model, including
+    running nutrient data through the rloadest package into the AEM3D water quality
+    model.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.4.0)
+Imports: dplyr, tidyverse, lubridate, reshape2, rloadest
+RoxygenNote: 6.0.1
